@@ -1,0 +1,28 @@
+package com.saher.nexgointent
+
+data class PacketDataDTO(
+    var batchID: String = "",
+    var transactionID: String = "",
+    var transactionType: String = "",
+    var baseAmount: String = "",
+    var tipAmount: String = "",
+    var cashbackAmount: String = "",
+    var processedAmount: String = "",
+    var resultCode: String = "",
+    var hostMessage: String = "",
+    var cardNumber: String = "",
+    var cardIssuer: String = "",
+    var cardDataEntry: String = "",
+    var referenceNumber: String = "",
+    var authorizationCode: String = "",
+    var accountId: String = "",
+    var hostResponse: String = "",
+    var applicationVersion: String = "",
+    var fwVersion: String = "",
+    var emvTags: List<String> = listOf(),
+    var cardHolderName: String = "",
+    var traceNo: String = "",
+    var signature: String = "",
+    var merchantId: String = "",
+    var snapAvailableBal: String = "",
+)
